@@ -2,12 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio-OS</title>
+    <title>IOE Civil Syllabus Hub</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <main class="container">
+      <header class="header">
+        <div class="brand">IOE Civil - Subject Navigator</div>
+        <span class="badge">Custom Hyperlinks Enabled</span>
+      </header>
+
+      <section class="hero">
+        <h1>Civil Engineering Subject Directory</h1>
+        <p>
+          Dedicated subject pages are prepared with consistent design, chapter placeholders, and note-link slots.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">Subjects</h2>
+        <div id="subjects" class="grid"></div>
+      </section>
+
+      <p class="footer-note">
+        If you share the exact syllabus text, it can be pasted into each subject page 1:1.
+      </p>
+    </main>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
